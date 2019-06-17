@@ -1,0 +1,38 @@
+@import './stylesheets/variables';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $fontPrimary;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+  :visited {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  :hover {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  :active {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  :link {
+    color: inherit;
+    text-decoration: inherit;
+  }
+}
