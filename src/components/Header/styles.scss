@@ -1,0 +1,43 @@
+@import '../../stylesheets/variables';
+
+.header__container {
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    background-color:$colorPink;
+    width: 100%;
+    height: 50px;
+    color: $colorLight;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header__nav {
+    margin-top: 10px;
+    width: 100%;
+}
+.header__menu{
+    :hover {
+        color: $colorDarkerBlue;
+    }
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.progress-container {
+    width: 100vw;
+    height: 8px;
+    position: relative;
+    top: 14px;
+    background: $colorLight;
+  }
+  
+  .progress-bar {
+    height: 8px;
+    background: $colorDarkBlue;
+    width: 0%;
+  }
+  
+

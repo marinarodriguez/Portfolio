@@ -3,7 +3,7 @@ import "./styles.scss";
 
 const Footer = props => {
   return (
-    <div>
+    <div claassName="footer__container">
         <nav>
       <ul>
         <li>

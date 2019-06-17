@@ -7,7 +7,6 @@ import Main from "../Main";
 const Homepage = props => {
   return (
     <div>
-      Homepage
       <Header />
       <Main />
       <Footer />

@@ -7,8 +7,7 @@ import Projects from "../Projects";
 
 const Main = props => {
   return (
-    <div>
-      Main
+    <div claassName="main__container">
       <Switch>
         <Route exact path="/" render={routerProps => <AboutMe />} />
         <Route
