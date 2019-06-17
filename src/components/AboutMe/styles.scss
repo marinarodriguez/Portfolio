@@ -1,4 +1,54 @@
+@import '../../stylesheets/variables';
+
 .aboutme__container{
-    margin-top: 60px;
-    padding: 10px;
+    margin-top: 70px;
+    max-width: 768px;
+    margin-bottom: 15px;
+}
+// @media all and (min-width: 768px){
+//     .avatar__image {
+//         margin-top: 100px;
+//         position: absolute;
+//         top: -180px;
+//         left: 400px;
+//         height: 250px;
+//         width: 300px;
+//         opacity: 0.8;
+//         background-repeat: no-repeat;
+//         background-size: cover;
+//     }
+//     .aboutme__presentation{
+//         position: relative;
+//         display: flex;
+//         flex-direction: row-reverse;
+//         align-items: flex-end;
+//         justify-content: flex-end;
+//         color: $colorDarkerBlue;
+//         text-align: left;
+//         padding-right: 10px;
+//     }
+// }
+
+.aboutme__info{
+    line-height: 1.6em;
+}
+.aboutme__description {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    color: $colorDarkerBlue;
+    @media all and (min-width:768px){
+        color: $colorLight;
+    }
+}
+.aboutme__name {
+    margin-left: 10px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+}
+.aboutme__job {
+    margin: 0;
+    margin-left: 10px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
 }

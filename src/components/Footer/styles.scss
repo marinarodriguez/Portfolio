@@ -7,4 +7,11 @@
     line-height: 1.4em;
     background-color: $colorLight;
     color: $colorDarkBlue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer__contact--info{
+
 }

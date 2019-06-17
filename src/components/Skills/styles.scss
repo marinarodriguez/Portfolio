@@ -1,0 +1,36 @@
+@import '../../stylesheets/variables';
+
+.skills__container{
+    max-width: 500px;
+}
+.skills__title{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: $colorDarkerBlue;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    @media all and (min-width:768px){
+        color: $colorLight;
+    }
+}
+.skills__list--bubbles{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+.list__bubble{
+    padding: 5px 10px 5px 10px;
+    margin: 3px 6px 6px 0;
+    background-color: $colorDarkPurple;
+    border-radius: 10px;
+    color: $colorLight;
+}
+.design{
+    background-color: $colorPink;
+}
+.soft {
+    background-color: $colorPurple;
+}

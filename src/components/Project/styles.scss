@@ -1,0 +1,14 @@
+@import '../../stylesheets/variables';
+
+.project__container{
+    width: 300px;
+    margin: 10px;
+    background-image: linear-gradient(to bottom, #fff0f0, #ffedec, #ffeae8, #ffe7e4, #ffe4df);
+    padding: 5px;
+    border-radius: 10px;
+}
+.project__image {
+    height: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+}

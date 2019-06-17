@@ -1,4 +1,4 @@
-@import './stylesheets/variables';
+@import "./stylesheets/variables";
 
 body {
   margin: 0;
@@ -6,6 +6,9 @@ body {
   font-family: $fontPrimary;
   color: $colorDarkerBlue;
   box-sizing: border-box;
+  @media all and (min-width: 768px) {
+    background-color: $colorLight;
+  }
 }
 
 code {
@@ -38,6 +41,8 @@ a {
     text-decoration: inherit;
   }
 }
-h1 {
+h1,
+h2,
+h3 {
   margin: 0;
 }

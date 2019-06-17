@@ -5,7 +5,7 @@ const Footer = props => {
   return (
     <div className="footer__container">
       <nav>
-        <ul>
+        <ul className="footer__contact--info">
           <li>
             <a target="_blank" href="tel:+34656498787">
               <i class="fas fa-phone-alt" /> 656498787
