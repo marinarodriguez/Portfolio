@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: $fontPrimary;
+  color: $colorDarkerBlue;
   box-sizing: border-box;
 }
 
@@ -36,4 +37,7 @@ a {
     color: inherit;
     text-decoration: inherit;
   }
+}
+h1 {
+  margin: 0;
 }

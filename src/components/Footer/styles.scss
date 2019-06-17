@@ -1,0 +1,10 @@
+@import '../../stylesheets/variables';
+
+.footer__container{
+    border-top: 1px solid $colorDarkBlue;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.4em;
+    background-color: $colorLight;
+    color: $colorDarkBlue;
+}
