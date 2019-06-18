@@ -10,7 +10,9 @@ import "./styles.scss";
 const Projects = props => {
   return (
     <div className="projects__wrapper">
+     
       <div className="projects__container">
+      <h2 className="projects__title">Proyectos realizados</h2>
         <div className="project__container">
           <div className="project__image">
             <i className="fab fa-react symbol" />
@@ -215,7 +217,7 @@ const Projects = props => {
           <div>
             <h2 className="project__title">Jigglypuff</h2>
             <p className="project__description">
-              Pequeño proyecto de investigación de posicionamiento en CSS
+              Pequeño proyecto de investigación de posicionamiento en CSS, dibujando a Jigglypuff, un pokemon :).
               <br />
               <br />
               <a

@@ -4,7 +4,7 @@ import "./styles.scss";
 const Skills = props => {
   return (
     <div className="skills__container">
-        <h2 className="skills__title">Herramientas</h2>
+        <h2 className="skills__title">¿Qué herramientas uso?</h2>
       <ul className="skills__list--bubbles">
         <li className="list__bubble">JavaScript</li>
         <li className="list__bubble">React</li>

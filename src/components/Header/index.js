@@ -17,7 +17,7 @@ const Header = (props) => {
             <ul className="header__menu">
                 <li className="header__menu--option"><Link to={`/`}>Sobre mí</Link></li>
                 <li className="header__menu--option"><Link to={`/projects`}>Proyectos</Link></li>
-                <li className="header__menu--option"><Link to={`/contact`}>Contacto</Link></li>
+                <li className="header__menu--option"><Link to={`/more`}>Intereses</Link></li>
             </ul>
         </nav>
         <div className="progress-container">
