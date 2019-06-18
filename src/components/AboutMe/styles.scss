@@ -1,45 +1,45 @@
-@import '../../stylesheets/variables';
+@import "../../stylesheets/variables";
 
-.aboutme__container{
-    margin-top: 70px;
-    max-width: 768px;
-    margin-bottom: 15px;
-    @media all and (min-width:768px){
-        margin-left: 15px;
-        margin-right: 15px;
-    }
+.aboutme__container {
+  margin-top: 70px;
+  max-width: 768px;
+  margin-bottom: 15px;
+  @media all and (min-width: 768px) {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
-.aboutme__info{
-    line-height: 1.6em;
+.aboutme__info {
+  line-height: 1.6em;
 }
 .aboutme__description {
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: justify;
-    color: $colorDarkerBlue;
-    @media all and (min-width:768px){
-        color: $colorLight;
-    }
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+  color: $colorDarkerBlue;
+  @media all and (min-width: 768px) {
+    color: $colorLight;
+  }
 }
 .aboutme__name {
-    margin-left: 10px;
-    font-family: "Barlow", sans-serif;
-    font-weight: 300;
-    line-height: 1.6em;
-    letter-spacing: 2px;
-    color: $colorPurple;
-    @media all and (min-width:768px){
-        color: $colorLight;
-    }
+  margin-left: 10px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  line-height: 1.6em;
+  letter-spacing: 2px;
+  color: $colorPurple;
+  @media all and (min-width: 768px) {
+    color: $colorLight;
+  }
 }
 .aboutme__job {
-    margin: 0;
-    margin-left: 10px;
-    font-family: "Barlow", sans-serif;
-    font-weight: 300;
-    color: $colorPink;
-    @media all and (min-width:768px){
-        color: $colorLight;
-    }
+  margin: 0;
+  margin-left: 10px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  color: $colorPink;
+  @media all and (min-width: 768px) {
+    color: $colorLight;
+  }
 }

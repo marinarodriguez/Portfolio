@@ -7,10 +7,10 @@ const AboutMe = props => {
     <div className="aboutme__container">
       <div className="aboutme__info">
         <div className="aboutme__presentation">
-        <div>
-        <h1 className="aboutme__name">Marina Rodríguez</h1>
-        <h3 className="aboutme__job">Front-End Developer</h3>
-        </div>
+          <div>
+            <h1 className="aboutme__name">Marina Rodríguez</h1>
+            <h3 className="aboutme__job">Front-End Developer</h3>
+          </div>
         </div>
         <p className="aboutme__description">
           Habiéndome graduado en Bellas Artes y Comunicación Audiovisual y
