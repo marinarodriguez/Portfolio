@@ -10,7 +10,7 @@ const Projects = props => {
           <div className="project__image">
             <i className="fab fa-react symbol" />
           </div>
-          <div>
+          <div className="project__margin">
             <h2 className="project__title">Proyecto Heredado: APC </h2>
             <p className="project__description">
               Migración integral del proyecto Awesome Profile Cards a React.
@@ -49,12 +49,11 @@ const Projects = props => {
             </ul>
           </div>
         </div>
-
         <div className="project__container">
           <div className="project__image">
             <i className="fab fa-js-square symbol" />
           </div>
-          <div>
+          <div className="project__margin">
             <h2 className="project__title">Awesome Profile Cards </h2>
             <p className="project__description">
               Proyecto realizado con JavaScript. Web responsive que permite al
@@ -89,6 +88,7 @@ const Projects = props => {
               <li className="list__bubble">Diseño Responsive</li>
               <li className="list__bubble">Grid</li>
               <li className="list__bubble">E6</li>
+              <li className="list__bubble design">Zeplin</li>
             </ul>
           </div>
         </div>
@@ -97,7 +97,7 @@ const Projects = props => {
           <div className="project__image">
             <i className="fab fa-react symbol" />
           </div>
-          <div>
+          <div className="project__margin">
             <h2 className="project__title">BMind Holidays </h2>
             <p className="project__description">
               Una SPA realizada para BMind en 30 horas y usando una librería
@@ -139,7 +139,7 @@ const Projects = props => {
           <div className="project__image">
             <i className="fab fa-react symbol" />
           </div>
-          <div>
+          <div className="project__margin">
             <h2 className="project__title">Marina's Portfolio</h2>
             <p className="project__description">
               El proyecto de creación de esta página. Realizada con React y con
@@ -168,11 +168,12 @@ const Projects = props => {
             </ul>
           </div>
         </div>
+        
         <div className="project__container">
           <div className="project__image">
             <i className="fab fa-css3-alt symbol" />
           </div>
-          <div>
+          <div className="project__margin">
             <h2 className="project__title">Rock & Code</h2>
             <p className="project__description">
               Proyecto de presentación como grupo, orientado completamente a
@@ -201,15 +202,55 @@ const Projects = props => {
               <li className="list__bubble">HTML5</li>
               <li className="list__bubble">Diseño Responsive</li>
               <li className="list__bubble">E6</li>
+              <li className="list__bubble design">Zeplin</li>
             </ul>
           </div>
         </div>
-
         <div className="project__container">
           <div className="project__image">
             <i className="fab fa-react symbol" />
           </div>
-          <div>
+          <div className="project__margin">
+            <h2 className="project__title"> Pokedex: llamadas encadenadas</h2>
+            <p className="project__description">
+              Pequeña SPA que muestra un listado de pokemon y los filtra por nombre. Llamadas encadenadas a API.
+              <br />
+              <br />
+              <a
+                className="link__repo"
+                href="https://github.com/Adalab/f-online-pokemon-marinarodriguez"
+                target="_blank"
+              >
+                <i className="fas fa-arrow-right" /> Repositorio en GitHub{" "}
+              </a>
+              <br />
+              <a
+                className="link__repo"
+                href="http://beta.adalab.es/f-online-pokemon-marinarodriguez/"
+                target="_blank"
+              >
+                <i className="fas fa-arrow-right" /> Demo de la página{" "}
+              </a>
+            </p>
+
+            <ul className="skills__list--bubbles">
+              <li className="list__bubble">JavaScript</li>
+              <li className="list__bubble">React</li>
+              <li className="list__bubble">CSS3</li>
+              <li className="list__bubble">SASS</li>
+              <li className="list__bubble">API REST</li>
+              <li className="list__bubble">HTML5</li>
+              <li className="list__bubble">Git</li>
+              <li className="list__bubble">Diseño Responsive</li>
+              <li className="list__bubble">E6</li>
+            </ul>
+          </div>
+        </div>
+        <div className="project__container">
+          <div className="project__image">
+            <i className="fab fa-react symbol" />
+          </div>
+          <div className="project__margin">
             <h2 className="project__title">HP Characters Searcher</h2>
             <p className="project__description">
               Una SPA que recoge elementos de una API pública sobre los
@@ -250,7 +291,7 @@ const Projects = props => {
           <div className="project__image">
             <i className="fab fa-codepen symbol" />
           </div>
-          <div>
+          <div className="project__margin">
             <h2 className="project__title">Jigglypuff</h2>
             <p className="project__description">
               Pequeño proyecto de investigación de posicionamiento en CSS,

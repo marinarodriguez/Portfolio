@@ -24,6 +24,7 @@ const Skills = props => {
         <li className="list__bubble design">Illustrator</li>
         <li className="list__bubble design">Premiere</li>
         <li className="list__bubble design">Sketch</li>
+        <li className="list__bubble design">Zeplin</li>
         <li className="list__bubble design">After Effects</li>
       </ul>
     </div>
