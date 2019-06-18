@@ -11,7 +11,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 50px;
 }
+@media all and (min-width: 768px){
 .footer__contact--info{
+    display: flex;
+    flex-direction: row;
+}
+.footer__contact--info li:before {
+    content: '|';
+    padding: 0 10px;
+}
 
+.footer__contact--info li:first-child:before {
+    content: none;
+    padding: 0;
+}
 }

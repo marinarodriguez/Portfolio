@@ -7,11 +7,6 @@ const Footer = props => {
       <nav>
         <ul className="footer__contact--info">
           <li>
-            <a target="_blank" href="tel:+34656498787">
-              <i class="fas fa-phone-alt" /> 656498787
-            </a>
-          </li>
-          <li>
             <a target="_blank" href="mailto:marinarodriguezandres@gmail.com">
               <i class="far fa-envelope" /> marinarodriguezandres@gmail.com
             </a>
