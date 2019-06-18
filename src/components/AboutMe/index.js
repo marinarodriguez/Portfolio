@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles.scss";
-import AvatarImage from "../../images/avatar2.png";
 import Skills from "../Skills";
 
 const AboutMe = props => {
@@ -8,10 +7,6 @@ const AboutMe = props => {
     <div className="aboutme__container">
       <div className="aboutme__info">
         <div className="aboutme__presentation">
-        <div
-          className="avatar__image"
-          style={{ backgroundImage: `url('${AvatarImage}')` }}
-        />
         <div>
         <h1 className="aboutme__name">Marina Rodríguez</h1>
         <h3 className="aboutme__job">Front-End Developer</h3>

@@ -1,11 +1,5 @@
 import React from "react";
 import "./styles.scss";
-// import AwesomeReact from "../../images/awesome.png";
-// import AwesomeJavascript from "../../images/awesomeoriginal.png";
-// import Bmind from "../../images/bmind.png";
-// import RockAndCode from "../../images/rockandcode.png";
-// import HarryPotter from "../../images/harrypotter.png";
-//import Project from "../Project";
 
 const Projects = props => {
   return (
