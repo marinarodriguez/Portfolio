@@ -292,7 +292,7 @@ const Projects = props => {
             <i className="fab fa-codepen symbol" />
           </div>
           <div className="project__margin">
-            <h2 className="project__title">Jigglypuff</h2>
+            <h2 className="project__title">Mi Jigglypuff</h2>
             <p className="project__description">
               Pequeño proyecto de investigación de posicionamiento en CSS,
               dibujando a Jigglypuff, un pokemon :).
@@ -300,7 +300,7 @@ const Projects = props => {
               <br />
               <a
                 className="link__repo"
-                href="http://beta.adalab.es/f-m3-evaluacion-final-marinarodriguez/#/"
+                href="https://codepen.io/Qoqo/pen/PgJzpP"
                 target="_blank"
               >
                 <i className="fas fa-arrow-right" /> Proyecto en Codepen{" "}
